@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+    font-family:monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background:linear-gradient(blue, white);
+    background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-container h1 {
+    font-size: 45px;
+}
+p {
+    font-size: 28px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    font-size: large;
+    width: 70px;
+    height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-engine {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-container input {
+    height: 30px;
+    width: 250px;
+    margin-bottom: 30px;
+    font-size: large;
 }
+
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result-container img {
+    margin-right: 10px;
+    width: 300px;
+    height: 450px;
+}
+
+.result-container img:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.result-container {
+    flex: 1;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.movie-page-container {
+    display: flex;
+    padding: 30px;
+}
+
+.movie-page-container h1 {
+    font-size: 35px;
+}
+
+.info-container {
+    padding: 10px
+}
+
+.result-container h3 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 651px) {
+    .movie-page-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+    }}
