@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# React App Movie Search Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup av utvecklingsmiljön
 
-## Available Scripts
+Följ dessa steg för att sätta upp utvecklingsmiljön och köra React App Movie Search Engine:
 
-In the project directory, you can run:
+### Steg 1
+1. Klona projektet från GitHub:
 
-### `npm start`
+2. Öppna terminalen eller kommandotolken på din dator.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Navigera till önskad plats: Använd cd-kommandot för att navigera till mappen där du vill lagra projektet. Till exempel:
+cd din/mapp/plats
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Klistra in repolänken och kör git clone-kommandot:
+git clone https://github.com/TheAbsintheDuck/react-app-movie-search-engine
 
-### `npm test`
+### Steg 2
+1. Öppna projektet i Visual Studio Code (VSC), gå till File > Open Folder... och välj den mapp där du klonade ditt GitHub-projekt. Klicka på Open för att öppna projektmappen i VSC.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steg 3
+1. Om du inte redan har Node.js och npm installerat på din dator, behöver du göra det för att köra React-projektet. Följ stegen för att ladda ner och installera dem från Node.js webbplats.
 
-### `npm run build`
+### Steg 4
+1. Öppna terminalen i VSC: Inuti VSC, öppna en ny terminal genom att gå till Terminal > New Terminal.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigera till projektmappen: Använd terminalen inuti VSC för att navigera till den klonade projektmappen:
+cd projektnamn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Installera beroenden: Använd npm för att installera de nödvändiga paketen som behövs för att köra projektet:
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Steg 5
+1. Starta React-applikationen med:
+npm start
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Utvecklingsservern kommer att starta och din webbläsare öppnas automatiskt med din React-applikation på http://localhost:3000 (eller en annan port om den är konfigurerad annorlunda).
