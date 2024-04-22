@@ -24,11 +24,19 @@ button {
     text-align: center;
 }
 
-.search-container input {
+.search-container .title-input {
     height: 30px;
     width: 250px;
     margin-bottom: 30px;
     font-size: large;
+}
+
+.search-container .year-input {
+    height: 30px;
+    width: 50px;
+    margin-bottom: 30px;
+    font-size: large;
+    text-align: center;
 }
 
 .row-container {
@@ -43,15 +51,15 @@ button {
     height: 450px;
 }
 
-.result-container img:hover {
-    background-color: white;
-    cursor: pointer;
+.result-container img:hover, .movie-page-container img  {
+    border: solid 5px black;
+    box-sizing: border-box;
 }
-
 .result-container {
     flex: 1;
     width: 100%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .movie-page-container {
