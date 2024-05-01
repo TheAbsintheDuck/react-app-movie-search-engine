@@ -1,7 +1,13 @@
 import React from "react";
 import "../App.css";
 
-function Search({ handleTitleInput, handleYearInput, searchResult }) {
+function Search({
+  handleTitleInput,
+  handleYearInput,
+  searchResult,
+  searchTerm,
+  year,
+}) {
   return (
     <div className="search-container">
       <input
@@ -9,6 +15,7 @@ function Search({ handleTitleInput, handleYearInput, searchResult }) {
         type="text"
         placeholder="Title"
         name="title"
+        value={searchTerm}
         onChange={handleTitleInput}
         onKeyDown={searchResult}
       />
@@ -17,6 +24,7 @@ function Search({ handleTitleInput, handleYearInput, searchResult }) {
         type="text"
         placeholder="Year"
         name="year"
+        value={year}
         onChange={handleYearInput}
         onKeyDown={searchResult}
       />
