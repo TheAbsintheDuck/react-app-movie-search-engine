@@ -4,7 +4,7 @@ import Search from "./Components/Search";
 import Results from "./Components/Results";
 import MoviePage from "./Components/MoviePage";
 
-const API_URL = "http://www.omdbapi.com/?";
+const API_URL = "https://www.omdbapi.com/?";
 const API_KEY = "&apikey=3d1445fb";
 
 function App() {
